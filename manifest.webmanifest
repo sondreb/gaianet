@@ -1,6 +1,8 @@
 {
   "name": "Gaianet",
   "short_name": "Gaianet",
+  "author": "SondreB",
+  "description": "Gaianet Database App",
   "theme_color": "#D6473D",
   "background_color": "#ffffff",
   "display": "standalone",
