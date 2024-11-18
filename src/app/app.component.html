@@ -1,0 +1,18 @@
+<div class="fullscreen-container">
+  <!-- <img src="/icons/icon-1024x1024.png" alt="Dreams Logo" class="logo" />
+  <h1>In development...</h1> -->
+  <iframe
+    class="gaianet-frame"
+    src="https://airtable.com/embed/shrb2A5dyfF0XofUr?backgroundColor=yellow&viewControls=on"
+  >
+  </iframe>
+
+  <button
+    *ngIf="showInstallButton"
+    (click)="installPwa()"
+    class="install-button"
+  >
+    Install App
+  </button>
+</div>
+<router-outlet />
